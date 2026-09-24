@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Commands">
+      <UniqueIdentifier>{c34df868-cba6-4358-bab7-5d29ca943c3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Streams">
+      <UniqueIdentifier>{1be98227-ce3e-40ce-b0b5-5437534ccacc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core">
+      <UniqueIdentifier>{d2fc0068-d6d0-4210-b4d4-248b9a8e8b0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Commands">
+      <UniqueIdentifier>{70a29da5-a569-404c-bcc8-3f1cae6fb0fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{4dbaac40-66e1-46c9-87c5-06b8380c193c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Streams">
+      <UniqueIdentifier>{ffb63c66-1d7c-4ebf-95d3-96ee1e551d12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Errors">
+      <UniqueIdentifier>{3241fa26-a6d6-4ac6-839a-002fc2268c15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Commands\File">
+      <UniqueIdentifier>{3859d061-8430-4a1b-94ee-1f84b4e5a3c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Commands\Simple">
+      <UniqueIdentifier>{af32f6fb-36f6-4d93-8674-44737b37b67a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Commands\Stream">
+      <UniqueIdentifier>{0a83d869-7be6-4715-942e-765d082b437c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Commands\Batch">
+      <UniqueIdentifier>{4ed3fbe7-5d55-4414-bdbe-c44d949a9857}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Commands\File">
+      <UniqueIdentifier>{9c8c18c0-53b5-4480-a763-34331271c876}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Commands\Simple">
+      <UniqueIdentifier>{236d1a91-7bb1-4f64-afa7-caaf9d151e6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Commands\Stream">
+      <UniqueIdentifier>{bf9cb471-13af-4789-948b-371d7cdb1e14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Commands\Batch">
+      <UniqueIdentifier>{44b52367-e010-466f-a66f-3fe3b9b620b0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Core\Interpreter.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Streams\OutputStream.cpp">
+      <Filter>Source Files\Streams</Filter>
+    </ClCompile>
+    <ClCompile Include="Streams\InputStream.cpp">
+      <Filter>Source Files\Streams</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Reader.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Translator.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Commands\BatchCommands\Batch.cpp">
+      <Filter>Source Files\Commands\Batch</Filter>
+    </ClCompile>
+    <ClCompile Include="Commands\SimpleCommands\Date.cpp">
+      <Filter>Source Files\Commands\Simple</Filter>
+    </ClCompile>
+    <ClCompile Include="Commands\SimpleCommands\Time.cpp">
+      <Filter>Source Files\Commands\Simple</Filter>
+    </ClCompile>
+    <ClCompile Include="Commands\SimpleCommands\Prompt.cpp">
+      <Filter>Source Files\Commands\Simple</Filter>
+    </ClCompile>
+    <ClCompile Include="Commands\FileCommands\Touch.cpp">
+      <Filter>Source Files\Commands\File</Filter>
+    </ClCompile>
+    <ClCompile Include="Commands\FileCommands\Truncate.cpp">
+      <Filter>Source Files\Commands\File</Filter>
+    </ClCompile>
+    <ClCompile Include="Commands\FileCommands\Rm.cpp">
+      <Filter>Source Files\Commands\File</Filter>
+    </ClCompile>
+    <ClCompile Include="Commands\StreamCommands\Wc.cpp">
+      <Filter>Source Files\Commands\Stream</Filter>
+    </ClCompile>
+    <ClCompile Include="Commands\StreamCommands\Tr.cpp">
+      <Filter>Source Files\Commands\Stream</Filter>
+    </ClCompile>
+    <ClCompile Include="Commands\StreamCommands\Echo.cpp">
+      <Filter>Source Files\Commands\Stream</Filter>
+    </ClCompile>
+    <ClCompile Include="Commands\StreamCommands\Head.cpp">
+      <Filter>Source Files\Commands\Stream</Filter>
+    </ClCompile>
+    <ClCompile Include="Commands\Command.cpp">
+      <Filter>Source Files\Commands</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Core\Interpreter.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Streams\OutputStream.h">
+      <Filter>Header Files\Streams</Filter>
+    </ClInclude>
+    <ClInclude Include="Streams\InputStream.h">
+      <Filter>Header Files\Streams</Filter>
+    </ClInclude>
+    <ClInclude Include="Errors\Exception.h">
+      <Filter>Header Files\Errors</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Reader.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Translator.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Commands\SimpleCommands\Time.h">
+      <Filter>Header Files\Commands\Simple</Filter>
+    </ClInclude>
+    <ClInclude Include="Commands\SimpleCommands\Prompt.h">
+      <Filter>Header Files\Commands\Simple</Filter>
+    </ClInclude>
+    <ClInclude Include="Commands\SimpleCommands\Date.h">
+      <Filter>Header Files\Commands\Simple</Filter>
+    </ClInclude>
+    <ClInclude Include="Commands\Command.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Commands\FileCommands\Truncate.h">
+      <Filter>Header Files\Commands\File</Filter>
+    </ClInclude>
+    <ClInclude Include="Commands\FileCommands\Rm.h">
+      <Filter>Header Files\Commands\File</Filter>
+    </ClInclude>
+    <ClInclude Include="Commands\FileCommands\Touch.h">
+      <Filter>Header Files\Commands\File</Filter>
+    </ClInclude>
+    <ClInclude Include="Commands\StreamCommands\Head.h">
+      <Filter>Header Files\Commands\Stream</Filter>
+    </ClInclude>
+    <ClInclude Include="Commands\StreamCommands\Tr.h">
+      <Filter>Header Files\Commands\Stream</Filter>
+    </ClInclude>
+    <ClInclude Include="Commands\StreamCommands\Wc.h">
+      <Filter>Header Files\Commands\Stream</Filter>
+    </ClInclude>
+    <ClInclude Include="Commands\StreamCommands\Echo.h">
+      <Filter>Header Files\Commands\Stream</Filter>
+    </ClInclude>
+    <ClInclude Include="Commands\BatchCommands\Batch.h">
+      <Filter>Header Files\Commands\Batch</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="all.txt" />
+    <Text Include="basic_commands.txt" />
+    <Text Include="cmd_commands.txt" />
+    <Text Include="hello.txt" />
+    <Text Include="input.txt" />
+    <Text Include="red_commands.txt" />
+  </ItemGroup>
+</Project>
